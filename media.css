@@ -1,0 +1,106 @@
+@media screen and (max-width:1200px) {
+    section{
+        height: fit-content;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    html{
+        width: fit-content;
+        height: fit-content;
+    }
+
+    body{
+        width: 90%;
+        
+    }
+    .navbar{
+
+        display: none;
+    }
+    .profile-container{
+        flex-direction: column-reverse;
+        align-items: space-around;
+        margin: 0;
+
+    }
+    .inter-profile{
+        margin-top: 2rem ;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .profile-image-container{
+        width: 320px;
+        height: 250px;
+        
+    }
+
+    #about{
+        background-size: cover;
+        padding-top: 1rem;
+    }
+    .about-part1{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 3rem;
+        width: fit-content;
+    }
+    
+    .arrow-icon{
+        display: none;
+    }
+
+    #experience{
+        background-size: cover;
+    }
+
+    .experience-containers{
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .project-container{
+        gap: 1rem;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        
+    }
+    .project-image{
+        width: 300px;
+    }
+
+    .contact-container{
+        gap: 1rem;
+        flex-direction: column;
+    }
+    .contact-icon{
+        width: 10%;
+    }
+    .contact-icons{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    #contact{
+        background-size: cover;
+    }
+    .contact-nav ul li a{
+        font-size: 1rem;
+    }
+    .contact-nav ul{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .footer-p{
+        padding: 0;
+        margin: 0;
+    }
+}

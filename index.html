@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    
+
+    <section id="profile">
+        <nav class="navbar">
+            <div class="navbar-box">
+                <h1 class="logo">ALi Ahmadi</h1>
+                <ul>
+                    <li><a href="#profile">Profile</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+    
+                </ul>
+            </div>
+        </nav>
+        <div class="profile-container">
+            
+            <img class="profile-image-container" src="./assets/profile.jpg" alt="profile image">
+
+            <div class="inter-profile">
+                <div class="inter-profile-text">
+                    <p class="text-p1">Hi I'm</p>
+                    <h2 class="title">Ali Ahmadi</h2>
+                    <p class="text-p2">Frontend Developer</p>
+                </div>
+
+                <div class="btn-box">
+                    <button class="btn" onclick="location.href='#about'">About</button>
+                    <button class="btn" onclick="location.href='#contact'">Contact</button>
+                </div>
+                <div class="icon-box">
+                    <img src="./assets/github.svg" alt="github" onclick="location.href='https://github.com'" class="icon">
+                    <img src="./assets/linkedin.svg" alt="linkedin" onclick="location.href='https://linkedin.com'" class="icon linkedin-icon">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-containers">
+            <h2 class="title">About Me</h2>
+            <div class="about-part1">
+                <div class="about-image">
+                    <img src="./assets/about-img-1.png" alt="about profile" class="about-img-1">
+                </div>
+                <div class="about-text">
+                    <h2 class="about-title">Software Engineering</h2>
+                    <p class="about-text-p2">Computer engineering student <br> at Hormozgan University since 2022</p>
+                </div>
+            </div>
+            <div class="about-part2">
+                <div class="about-image">
+                    <img src="./assets/about-img-2.png" alt="about profile" class="about-img-2">
+                </div>
+                <div class="about-text">
+                    <h2 class="about-title">ّFrontend Developer</h2>
+                    <p class="about-text-p2">Start learning the Frontend from 2024</p>
+                </div>
+            </div>
+            
+        </div>
+        <img src="./assets/arrow.png" alt="arrow" class="icon arrow-icon" onclick="location.href='#experience'">
+    </section>
+
+    <section id="experience">
+        <h2 class="title">Experience</h2>
+        <div class="experience-containers">
+            <div class="experience-container-1">
+                <h2 class="logo">Frontend Skill</h2>
+                <div class="experience-details">
+                    <li><h2 class="about-title">HTML</h2><p class="about-text-p2">Intermediate</p></li>
+                    <li><h2 class="about-title">CSS</h2><p class="about-text-p2">Intermediate</p></li>
+                    <li><h2 class="about-title">JavaScript</h2><p class="about-text-p2">Basic</p></li>
+                    <li><h2 class="about-title">Bootstrap</h2><p class="about-text-p2">Basic</p></li>
+                    <li><h2 class="about-title">React</h2><p class="about-text-p2">Basic</p></li>
+                    <li><h2 class="about-title">SASS</h2><p class="about-text-p2">Basic</p></li>
+                </div>
+            </div>
+            <div class="experience-container-2">
+                <div class="experience-container-1">
+                    <h2 class="logo">Backend Skill</h2>
+                    <div class="experience-details">
+                        <li><h2 class="about-title">Python</h2><p class="about-text-p2">Intermediate</p></li>
+                        <li><h2 class="about-title">Git</h2><p class="about-text-p2">Basic</p></li>
+                        <li><h2 class="about-title">Django</h2><p class="about-text-p2">Basic</p></li>
+                    </div>
+                </div>
+                <div class="experience-container-1">
+                    <h2 class="logo">Soft Skill</h2>
+                    <div class="experience-details">
+                        <li><h2 class="about-title">Persian</h2><p class="about-text-p2">Advance</p></li>
+                        <li><h2 class="about-title">English</h2><p class="about-text-p2">Basic</p></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow" class="icon arrow-icon" onclick="location.href='#projects'">
+
+    </section>
+
+    <section id="projects">
+        <h2 class="title">Projects</h2>
+        <div class="project-container">
+            <img src="./assets/project-1.png" alt="project 1" class="project-image">
+            <img src="./assets/project-2.png" alt="project 2" class="project-image">
+            <img src="./assets/project-3.png" alt="project 3" class="project-image">
+        </div>
+        <img src="./assets/arrow.png" alt="arrow" class="icon arrow-icon" onclick="location.href='#contact'">
+
+    </section>
+
+    <section id="contact">
+        <h2 class="title">Contact</h2>
+        <div class="contact-container">
+            <div class="contact-text">
+                <h2 class="title">Ali Ahmadi</h2>
+                <p class="text-p2">ali00ahmadia@gmail.com</p>
+            </div>
+            <div class="contact-icons">
+                <img src="./assets/github-contact.png" alt="github" class="contact-icon" onclick="location.href='https://github.com'">
+                <img src="./assets/linkedin-contact.png" alt="linkedin" class="contact-icon"  onclick="location.href='https://linkedin.com'">
+                <img src="./assets/facebook-contact.png" alt="facebook" class="contact-icon" onclick="location.href='https://facebook.com'">
+                <img src="./assets/instagram-contact.png" alt="instagram" class="contact-icon" onclick="location.href='https://instagram.com'">
+            </div>
+        </div>
+        <div class="contact-nav">
+            <ul>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+
+            </ul>
+        </div>
+        <footer>
+            <p class="footer-p">&copy; Created by Ali Ahmadi 2024</p>
+        </footer>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
